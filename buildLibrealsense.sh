@@ -8,7 +8,7 @@
 LIBREALSENSE_DIRECTORY=${HOME}/librealsense
 LIBREALSENSE_VERSION=v2.31.0
 INSTALL_DIR=$PWD
-NVCC_PATH=/usr/local/cuda-10.0/bin/nvcc
+NVCC_PATH=/usr/local/cuda-10.2/bin/nvcc
 
 USE_CUDA=true
 
