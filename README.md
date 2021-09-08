@@ -34,7 +34,7 @@ $ ./buildLibrealsense.sh [ -v | --version <version> ] [ -j | -jobs <number of jo
 Where:
 * `<version>` = Librealsense version. E.g. v2.49.0
 * `<number of jobs>` = # of jobs to run concurrently when building. Defaults to 1 if the Jetson has <= 4GB memory
-* `<no_cuda>` = Compile with CUDA
+* `<no_cuda>` = Compile without CUDA support (by default, CUDA is on)
 
 The librealsense Github repository has good documentation for supporting more advanced modes for the RealSense sensors. Please see: [installation_jetson.md](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md) The documentation covers different communication interfaces and how to explore different features, some of which may require recompiling kernel modules.
   
