@@ -5,7 +5,7 @@ Original article on JetsonHacks: https://wp.me/p7ZgI9-34j
 
 The Intel® RealSense™ SDK is here: https://github.com/IntelRealSense/librealsense
 The SDK library name is librealsense. This is for version 2 of the library, which supports
-the D400 series depth cameras, T265 tracking camera, and the SR300 depth camera.
+the D400 series depth cameras, T265 tracking camera, L515 lidar, and the SR300 depth camera.
 
 It is now possible on the NVIDIA Jetsons to do a simple install from a RealSense Debian repository
 (i.e. apt-get install). Previous versions of this repository require building librealsense from source, and (possibly) rebuilding the Linux kernel.
